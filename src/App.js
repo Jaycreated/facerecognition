@@ -41,13 +41,13 @@ render() {
   return (
     <div className="App">
       <Particles className = 'particles'
-         params={ParticlesOptions}
+         params={ ParticlesOptions }
  
   />
         <Navigation/>
        <Logo/>
        <Rank/>
-        <ImageLinkForm onInputChange={this.onInputChange}  onButtonSubmit={this.onButtonSubmit}/>
+        <ImageLinkForm onInputChange={ this.onInputChange }  onButtonSubmit={ this.onButtonSubmit }/>
       {/*<FaceRecogniton/>*/}
 
     </div>
